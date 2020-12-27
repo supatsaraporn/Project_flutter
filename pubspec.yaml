@@ -1,0 +1,42 @@
+name: project_flutter
+description: A new Flutter application.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.1
+  font_awesome_flutter: ^8.2.0
+  dio: ^1.0.13
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+
+  uses-material-design: true
+  assets:
+    - images/lake.jpg
+    - images/1.jpg
+    - images/img1.jpg
+    - images/menu1.jpg
+    - images/menu2.jpg
+    - images/menu3.jpg
+    - images/menu4.jpg
+
+
